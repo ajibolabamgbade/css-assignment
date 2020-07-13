@@ -1,0 +1,119 @@
+header {
+	background-color: rgba(255,255,255,1.0);
+	font-style: oblique 40deg;
+	display: flex;
+	padding-left: 43%;
+	height: 70px;
+
+}
+
+.navbar {
+	background-color: black;
+	color: white;
+	height: 20px;
+	display: inline-block;
+	font-style: cursive;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: maroon;
+
+
+}
+li{
+	float: left;
+}
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: purple;
+}
+
+.about {
+	display: grid;
+	width: 450px;
+	float: left;
+	background-color: #DFC27D;
+	color: black;
+
+}
+
+#footer {
+	display: inline-flex;
+	height: 70px;
+	width: 100px;
+	background-color: ;
+	margin-top: 20px;
+	color: black;
+
+}
+.empty-div {
+	height: 200px;
+}
+
+.second-part {
+	color: black;
+	display: grid;
+	width: 850px;
+	float: right;
+	background-color: #DFC27D;
+	color: black;
+	position: static;
+}
+#about-me{
+	text-align: left;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#about-me > h2, h4{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#about-me > p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.makeover-images{
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 50px;
+}
+.second-part > h2,h4,h1, {
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.second-part > p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-container {
+	float: right;
+}
+
+.search-container input {
+	margin-top: 6px;
+	padding: 8px;
+	font-size: 18px;
+	border:none;
+}
+
+.search-container button {
+	cursor: pointer;
+	border:none;
+	font-size: 18px;
+	background: #ddd;
+	margin-right: 16px;
+	margin-top: 8px;
+	float: right;
+	padding: 6px 10px;
+}
